@@ -1,1 +1,25 @@
-// les tests vont ici ; cela ne sera pas compilé si ce paquet est utilisé en tant qu'extension.
+/*Test de l'ensemble des solutions
+**Bip de 2 secondes pour terminer l'éxécution du code*/
+
+//
+ShieldMotor.bufferOnOff(ShieldMotor.Buzzer_Action.Marche)
+basic.pause(500)
+ShieldMotor.bufferOnOff(ShieldMotor.Buzzer_Action.Stop)
+ShieldMotor.Avancer(50)
+basic.pause(100)
+ShieldMotor.Reculer(50)
+basic.pause(100)
+ShieldMotor.Droite(50)
+basic.pause(100)
+ShieldMotor.Gauche(50)
+basic.pause(100)
+ShieldMotor.Stop()
+ShieldMotor.motorOn(ShieldMotor.MotorDirection.Forward, ShieldMotor.Moteurs.Moteur1, 50)
+ShieldMotor.motorOn(ShieldMotor.MotorDirection.Forward, ShieldMotor.Moteurs.Moteur2, 50)
+ShieldMotor.Stop()
+ShieldMotor.motorOn(ShieldMotor.MotorDirection.Reverse, ShieldMotor.Moteurs.Moteur1, 50)
+ShieldMotor.motorOn(ShieldMotor.MotorDirection.Reverse, ShieldMotor.Moteurs.Moteur2, 50)
+ShieldMotor.Stop()
+ShieldMotor.bufferOnOff(ShieldMotor.Buzzer_Action.Marche)
+basic.pause(2000)
+ShieldMotor.bufferOnOff(ShieldMotor.Buzzer_Action.Stop)

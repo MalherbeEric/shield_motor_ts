@@ -9,8 +9,7 @@
     "files": [
         "main.ts",
         "README.md",
-        "ShieldMotor.ts",
-        "Test.ts"
+        "ShieldMotor.ts"
     ],
     "testFiles": [
         "test.ts"

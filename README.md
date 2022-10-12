@@ -1,12 +1,12 @@
 ## Usage
 
-Utilisation pour le Shield Motor de Technologie Service
+Utilisation pour le Shield Moteur de Technologie Service
 
 ### Shield Moteur #ShieldMotor
 
-*********Utilisation simple des moteurs 
+        *Utilisation simple des moteurs 
 
-.....Arrêt *** Arrêt des 2 moteurs
+.....Stop *** Arrêt des 2 moteurs
 ShieldMotor.Stop()
 
 .....Avancer *** Faire avancer les 2 moteurs à la vitesse désirée
@@ -23,12 +23,12 @@ ShieldMotor.droite(50)
             le moteur 1 ne tourne pas ***
 ShieldMotor.gauche(50)
 
-*************Utilisation du buzzer
+        *Utilisation du buzzer
 
 ShieldMotor.buzzer("Marche") ***Mise en route du buzzer
 ShieldMotor.buzzer("Arrêt")  ***Arrêt du buzzer
 
-
+        *Utilisation individuelle de chaque moteur
 
 > Ouvrir cette page à [https://malherbeeric.github.io/shield_motor_ts/](https://malherbeeric.github.io/shield_motor_ts/)
 
